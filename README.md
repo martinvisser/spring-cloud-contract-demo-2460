@@ -1,5 +1,5 @@
 # Description
-Repo to demonstrate the issue with Spring Cloud Contract plugin when using version `4.3.3`.
+Repo to demonstrate the [issue](https://github.com/spring-cloud/spring-cloud-contract/issues/2460) with Spring Cloud Contract plugin when using version `4.3.3`.
 
 Updated to the latest Spring Cloud Contract `4.3.3`, and now I can not use Spring Cloud Contract plugin during the first maven build. Subsequent builds do work. No issues when downgrading back to `4.3.1` for first and subsequent runs.
 
